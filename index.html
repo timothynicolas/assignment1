@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment #1</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+    
+</head>
+
+
+<body>
+
+    <div class="pop-up" id="popup" style="display: none;">
+        <h1>Error 404</h1>
+        <p id="close-popup" style="margin-top: 50px; margin-bottom: 30px; font-size: 1.5rem;"> Website under development!</p>
+        <button style="height: 50px; width: 150px; border-radius: 10px; border-style: none; font-size: large; font-weight: 700; cursor: pointer;" onclick="hidePopup()">Okay</button>
+    </div>
+
+    <div id="main-content">
+        <nav class="navbar">
+            <a href="index.html"><img src="https://www.arellano.edu.ph/images/Arellano_University_New_Logo.png" class="logo"></a>
+            <ul class="navbar-dire">
+                <li class="navbar-buttons"><a href="https://www.facebook.com/0xTimothyNicolas/">Profile</a></li>
+                <li class="navbar-buttons"><a href="index.html">Home</a></li>
+                <li class="navbar-buttons" id="about-under-dev">About</li>
+                <li class="navbar-buttons" id="contact-under-dev">Contact</li>
+               
+            </ul>
+        </nav>
+        
+        <div class="main-container">
+            <h1 class="title">Assignment #1</h1>
+            <a href="question1.html"><button class="button">What is World Wide Web?</button></a>
+            <a href="question2.html"><button class="button">What is Web Design?</button></a>
+            <a href="question3.html"><button class="button">Types of Web Design</button></a>
+            <a href="question4.html"><button class="button">What is HTML?</button></a>
+        </div>
+    
+        <footer class="footer" >
+            <p> Paul Timothy L. Nicolas || ITC 122: Intro to Web Design || MON PM 3-8</p>
+        </footer>
+       
+    </div>
+
+    
+    
+
+   
+
+    <script src="index.js"></script>
+</body>
+</html>
